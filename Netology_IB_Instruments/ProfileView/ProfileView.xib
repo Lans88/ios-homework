@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1521720381_fotomanipulyacii-16" translatesAutoresizingMaskIntoConstraints="NO" id="Wpe-h7-J1Y">
+                    <rect key="frame" x="20" y="64" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="39K-DD-IBM"/>
+                        <constraint firstAttribute="height" constant="150" id="cip-2H-lWr"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKg-0Z-ZtS">
+                    <rect key="frame" x="185" y="64" width="209" height="30"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Tpb-bB-YKw"/>
+                        <constraint firstAttribute="width" constant="209" id="qku-UR-wOA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата рождения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlf-Zw-Hp2">
+                    <rect key="frame" x="185" y="124" width="209" height="30"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="uXX-Ub-L4h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Город" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OyE-aD-A65">
+                    <rect key="frame" x="185" y="184" width="209" height="30"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="yhg-z8-eWL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lSu-Ux-j5V">
+                    <rect key="frame" x="0.0" y="234" width="414" height="608"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="yKg-0Z-ZtS" firstAttribute="leading" secondItem="Wpe-h7-J1Y" secondAttribute="trailing" constant="15" id="CqT-LM-VJo"/>
+                <constraint firstItem="Wpe-h7-J1Y" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="E3e-Zf-fR2"/>
+                <constraint firstItem="OyE-aD-A65" firstAttribute="leading" secondItem="Wpe-h7-J1Y" secondAttribute="trailing" constant="15" id="G7s-8h-pMq"/>
+                <constraint firstItem="tlf-Zw-Hp2" firstAttribute="leading" secondItem="Wpe-h7-J1Y" secondAttribute="trailing" constant="15" id="HS2-65-eg5"/>
+                <constraint firstItem="lSu-Ux-j5V" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Hsp-D9-vcz"/>
+                <constraint firstItem="lSu-Ux-j5V" firstAttribute="top" secondItem="Wpe-h7-J1Y" secondAttribute="bottom" constant="20" id="KHM-Mj-RcL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lSu-Ux-j5V" secondAttribute="bottom" constant="20" id="OGe-mD-BTR"/>
+                <constraint firstItem="yKg-0Z-ZtS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="QfF-5c-JmS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tlf-Zw-Hp2" secondAttribute="trailing" constant="20" id="Sdt-og-FIY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lSu-Ux-j5V" secondAttribute="trailing" id="enc-mR-qmY"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lSu-Ux-j5V" secondAttribute="trailing" id="jlc-he-WrV"/>
+                <constraint firstItem="tlf-Zw-Hp2" firstAttribute="top" secondItem="yKg-0Z-ZtS" secondAttribute="bottom" constant="30" id="pM6-YA-hx6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OyE-aD-A65" secondAttribute="trailing" constant="20" id="pO8-GY-44T"/>
+                <constraint firstItem="Wpe-h7-J1Y" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="vhk-fh-zWP"/>
+                <constraint firstItem="lSu-Ux-j5V" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vpz-Pg-yki"/>
+                <constraint firstItem="OyE-aD-A65" firstAttribute="top" secondItem="tlf-Zw-Hp2" secondAttribute="bottom" constant="30" id="wce-dL-0zV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yKg-0Z-ZtS" secondAttribute="trailing" constant="20" id="ztX-lX-UGf"/>
+            </constraints>
+            <connections>
+                <outlet property="aboutMeText" destination="lSu-Ux-j5V" id="da7-NS-riH"/>
+                <outlet property="avatarImage" destination="Wpe-h7-J1Y" id="vvZ-I8-XvY"/>
+                <outlet property="bdLabel" destination="tlf-Zw-Hp2" id="hgT-Sa-EDw"/>
+                <outlet property="cityLabel" destination="OyE-aD-A65" id="lff-o7-Bfx"/>
+                <outlet property="nameLabel" destination="yKg-0Z-ZtS" id="Tjn-xZ-6LB"/>
+            </connections>
+            <point key="canvasLocation" x="394" y="33"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1521720381_fotomanipulyacii-16" width="1080" height="1350"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
